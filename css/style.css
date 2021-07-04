@@ -6,17 +6,21 @@ h1{
     font-size: 50px;
     
 }
+p{
+    text-align: justify;
+}
 .orenge_color{
     color: orange;
 
 }
-section{
+.flrxible_container{
     display: flex;
     margin-bottom: 150px;
 }
 .half_width{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .half_width img{
     width: 80%;
