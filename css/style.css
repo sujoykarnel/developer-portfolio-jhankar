@@ -6,6 +6,9 @@ h1{
     font-size: 50px;
     
 }
+h2{
+    font-size: 35px;
+}
 p{
     text-align: justify;
 }
@@ -42,4 +45,31 @@ p{
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.experience_section{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiance_items{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;    
+}
+#full_stack_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(yellow, green);
+    border-image-slice: 1;
+}
+#baby_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(gray, pink);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    color: gray;
 }
